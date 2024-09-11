@@ -1,0 +1,260 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    width: 100vw;
+    background-image: url(aaa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   /* font-family: 'Days One', sans-serif; */
+
+    
+     font-family: 'Alfa Slab One', cursive; 
+}
+.logo{
+    font-size:25px;
+    color: azure;
+    margin-top: 25px;
+    margin-left: 39px;
+}
+a{
+    text-decoration: none;
+    align-items: center;
+    font-size:23px;
+    color:white;
+    padding: px;
+    margin-top:50px;
+    margin-left: 56px ;
+}
+ a:hover{
+    text-decoration:underline;
+    color: aliceblue;
+}
+.btn{
+    font-size:26px;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    background-color: aliceblue;
+    margin-left: 100px; 
+    padding: 5px 10px;
+    font-size: 15px;
+}
+.h1{
+    font-size: 70px;
+    color: aliceblue;
+    text-align: center;
+    margin:20px;
+    margin-top: 15px;
+    /* margin-bottom: 80px; */
+}
+.h3{
+    text-align: center;
+    font-size: 23px;
+    color: aliceblue;
+    padding-bottom:100px;
+}
+.left{
+    color:black;
+    background-color:white ;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-top: 23px;
+    margin-left: 450px;
+    padding: 5px 10px;
+    border: none;
+}
+.right{
+    background-color: rgb(70, 61, 61);
+    color: aliceblue;
+    font-size:  22px;
+    border-radius: 15px;
+    padding: 5px 23px;
+    margin-top: 70px;
+}
+.kite{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.img{ 
+    margin-top: 400px;
+    margin-left: 40px;
+}
+.hero{
+    margin-top: 300px;
+    margin-left: 100px;
+    align-items:right ;
+    justify-content: right;
+    text-align: justify;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+p{
+    margin-left: 100px;
+    font-size: 20px;
+}
+.kite-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+    margin-bottom: -100px;
+   
+    
+}
+.hero-2{
+     display: flex;
+    font-size:50px ;
+    margin-left: 100px;
+    /* padding:16px; */
+    align-items: center;
+    justify-content: center;
+    margin-top: -300px;
+    
+    /* margin-top: 100px; */
+}
+.aa{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.img-2{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+  margin-bottom: 200px;
+  padding-bottom: 100px;
+  
+}
+h6{
+    font-size:50px ;
+    margin-left:100px ;
+    padding: 10px;
+    display: flex;
+}
+.kite-3{
+
+     /* margin-left: 800px; */
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.heading{
+    font-size: 40px;
+    text-align: center;
+}
+.headings{
+   background-color: aliceblue;
+   padding-top: 110px;
+}
+.in{
+    text-align: center;
+    padding: 30px;
+    text-align: 30px;
+}
+.img-4{
+    height:100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
+}
+.last{
+   font-size:40px ;
+   color: aliceblue;
+   align-items: center;
+   margin-top: 40px;
+   justify-content: center;
+}
+.for{
+    font-size: 25px;
+    margin: 25px;
+    border-radius: 17px;
+    margin-left: 200px;
+    background-color: blue;
+    color: aliceblue;
+}
+.end{
+    height:150vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    column-gap: 60px;
+}
+.end-2{
+    color: blue;
+    margin-top:150px; 
+   margin-left: 20px;
+}
+.product{
+        margin-top: 150px;
+ }
+.f-c{
+    color: blue;
+}
+.s-c{
+    color: aliceblue;
+  display: flex;
+  margin-top: 25px;
+}
+.product-2{
+    margin-top: 150px;
+}
+.f-c-1{
+    color: blue;
+}
+.s-c-2{
+    color: aliceblue;
+    display: flex;
+    margin-top:25px ;
+}
+.s-c-2:hover{
+   text-decoration: underline;
+}
+.f{
+    color: blue;
+}
+.s{
+    color: white;
+    margin-top: 25px;
+}
+.product-3{
+     margin-top: 100px;
+     flex-direction: column;
+     display: flex;
+
+}
+.product-4{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.oo{
+    color: blue;
+    column-gap: 25px;
+}
+.tt{  
+     color: white;
+     margin-top: 20px; 
+}
+.ss{
+font-size: 40px;
+color: aliceblue;
+background-color: blue;
+border-radius: 15px;
+margin-top: 10px;
+}
+.ss:hover{
+    background-color: aliceblue;
+    color: black;
+    transition: 1.5s;
+}
+.sign-up{
+   background-color: black;
+  text-align: center;
+}
